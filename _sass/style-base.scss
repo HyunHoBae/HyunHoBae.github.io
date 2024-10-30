@@ -1117,5 +1117,9 @@
 	}
 	li{
 		text-align: left;
+		li{
+			list-style: square;
+			margin-left: 10px;
+		}
 	}
 }
