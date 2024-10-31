@@ -30,8 +30,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 잉여 개발자의 기록
-subtitle: 제목 짓기 어려워요
+title: HyunHo Bae
+subtitle: 포토폴리오 겸 블로그
 description: # this means to ignore newlines until "baseurl:"
 author: 심해산 연어
 email: gusgh555@naver.com

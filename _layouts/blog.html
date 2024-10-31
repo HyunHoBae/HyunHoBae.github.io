@@ -22,4 +22,31 @@ layout: default
 		{%- assign _content = _excerpt | append: _link -%}
 		{%- include section.html title=_title subtitle=_subtitle content=_content -%}
 	{%- endfor -%}
+
+
+	<!-- search -->
+	<!--<div class="post-search_area"></div>
+	<input id="post-search-word"/>
+
+	<input name="post-search-start-date" id="post-search-start-date" type="date">
+	~
+	<input id="post-search-end_date" name="post-search-end_date" type="date">
+	<button id="search-btn" onclick="search()">검색</button>
+	<script>
+		window.onload=function() {
+			const params = new URLSearchParams(location.search)
+			document.getElementById("post-search-word").value=params.get("word")
+			document.getElementById("post-search-start-date").value=params.get("start")
+			document.getElementById("post-search-end_date").value=params.get("end")
+		}
+		function search(){
+			let word = document.getElementById('post-search-word').value
+			let start = document.getElementById('post-search-start-date').value
+			let end = document.getElementById('post-search-end_date').value
+
+			location.href=window.location.pathname+"?word="+word+"&start="+start+"&end="+end
+		}
+	</script>-->
+
+
 </div>
