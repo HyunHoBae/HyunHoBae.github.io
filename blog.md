@@ -2,6 +2,6 @@
 layout: blog
 title: 개발 관련
 icon: fa-pencil-alt
-order: 3
-hide:true
+order: 2
+hide: true
 ---
