@@ -5,14 +5,14 @@ author: 배현호
 layout: post
 categories: [""]
 tags: [""]
-hide: true
+hide: false
 ---
 
 ## 문제
 인텔리제이 톰캣 올리는 속도가 너무 느려짐
 
-## 해결
-VM 환경 설정
+## 해결 시도
+### 1.VM 환경 설정
 
  1.HELP -> Edit Custom VM Options
  2. 내용 복사 
@@ -74,4 +74,13 @@ VM 환경 설정
         -XX:+UseG1GC : 메모리 사용 패턴이 변동하는 IDE와 같은 애플리케이션에 더 적합한 G1(Garbage-First) 가비지 컬렉터를 사용
     </code>
 </pre>
-[출처[기록하는 프로그래머:티스토리]](https://jong-bae.tistory.com/82)
+
+### 2.인텔리제이 Profile 확인
+메모리 실시간 차트를 확인 하였더니 작업 시 Non-Heap Memory가 꾸준히 증가하고
+CPU 사용률이 심장 박동 수 처럼 마구 튐.. 
+현재 추정으로는 플러그인 중 하나가 CPU를 많이 쓰는 것이 아닐지 의심
+
+
+## 출처
+- [기록하는 프로그래머:티스토리](https://jong-bae.tistory.com/82)
+- [인텔리제이 프로파일링](https://www.jetbrains.com/ko-kr/pages/intellij-idea-profiler/)
