@@ -57,7 +57,7 @@ tail -f -n 0 "${logFile}"|\
         if [[ $((current_time -last_send_time)) -ge $send_interval || $buffer_line -ge 200]]; then
             #buffer가 있을 경우만 전송
             if [[$ -n "$buffer" ]]; then
-                json_payload=$(jq -n --arg buffer "$buffer" '{"errorData":$buffer}')
+                json_payload=$(jq -n --arg buffer "$buffer" '{"errorData":$buffer}')4
                 curl -d "$json_payload" -H "content-Type: application/json" -X POST 처리 API 주소 
                 buffer=""
                 buffer_line=0
