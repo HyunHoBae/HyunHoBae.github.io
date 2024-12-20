@@ -3,7 +3,7 @@ title : Dbeaver camel<->underscore
 date: YYYY-MM-DD HH:MM:SS +09:00
 author: 배현호
 layout: post
-categories: [""]
+categories: ["IDE"]
 tags: ["Dbeaver"]
 ---
 

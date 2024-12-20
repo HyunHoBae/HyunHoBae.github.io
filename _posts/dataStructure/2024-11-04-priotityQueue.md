@@ -3,7 +3,7 @@ title : Priority Queue(우선 순위 큐)
 date: YYYY-MM-DD HH:MM:SS +09:00
 author: 배현호
 layout: post
-categories: ["자료 구조"]
+categories: ["Data Structure"]
 tags: ["자료구조","우선 순위 큐","Priority Que"]
 ---
 

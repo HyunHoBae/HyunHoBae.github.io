@@ -3,7 +3,7 @@ title : 정렬 방식
 date: YYYY-MM-DD HH:MM:SS +09:00
 author: 배현호
 layout: post
-categories: ["알고리즘"]
+categories: ["Algorithm"]
 tags: ["알고리즘","삽입 정렬","정렬"]
 ---
 

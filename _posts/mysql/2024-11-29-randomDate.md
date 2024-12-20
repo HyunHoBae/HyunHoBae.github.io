@@ -1,13 +1,14 @@
 ---
-title : mysql 
+title : mysql 랜덤
 date: YYYY-MM-DD HH:MM:SS +09:00
 author: 배현호
 layout: post
 categories: ["mysql"]
-tags: [""]
+tags: ["mysql"]
 ---
 
 
+<figure class="highlight">
 <pre>
 <code>
 select 
@@ -20,11 +21,11 @@ select
 
 </code>
 </pre>
-
+</figure>
 
 https://blog.naver.com/ceman/180860893
 
 
 ### 출처
-- [랜덤 날짜]https://blog.naver.com/ceman/180860893
+- [랜덤 날짜](https://blog.naver.com/ceman/180860893)
 - [랜덤 문자](https://alithedeveloper.tistory.com/entry/MySQL-%EC%88%AB%EC%9E%90-%EC%98%81%EC%96%B4-%ED%95%9C%EA%B8%80-%EB%9E%9C%EB%8D%A4%EA%B0%92-%EC%83%9D%EC%84%B1-%EC%BF%BC%EB%A6%AC)

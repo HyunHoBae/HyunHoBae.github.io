@@ -1,10 +1,10 @@
 ---
-title : title
+title : intellij CPU 튀는 현상 (해결 X)
 date: YYYY-MM-DD HH:MM:SS +09:00
 author: 배현호
 layout: post
-categories: [""]
-tags: [""]
+categories: ["IDE"]
+tags: ["Intellij"]
 hide: false
 ---
 
