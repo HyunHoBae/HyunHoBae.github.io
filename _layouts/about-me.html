@@ -147,7 +147,42 @@ layout: default
       <br />
       {% endif %} {% endfor %}
     </div>
-    {% endif %} {% if site.show_author_work_experiences == true %}
+    {% endif %}
+
+    {% if site.show_author_personal_project_details == true %}
+    <div class="card">
+      <h1 class="card-title">Personal Project</h1>
+      <br />
+      {% for exp in site.author_personal_project_details %} {% if exp.visibility == true
+      %}
+      <div class="row">
+        <div class="col-md-2">
+          {% if project.project_thumbnail %}
+          <img
+                  src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.project_thumbnail }}"
+                  class="company-logo"
+          />
+          {% else %}
+          <img
+                  src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.default_img }}"
+                  class="company-logo"
+          />
+          {% endif %}
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-6">
+          <h4 class="experience-title">{{ exp.project_title }}</h4>
+<!--          <h6 class="experience-info">{{ exp.company_name}}</h6>-->
+          <p class="project_description">{{ exp.project_description }}</p>
+          <p><a href="{{exp.project_url}}">{{ exp.project_url}}</a></p>
+        </div>
+      </div>
+      {% endif %} {% endfor %}
+    </div>
+    {% endif %}
+
+
+    {% if site.show_author_work_experiences == true %}
     <div class="card">
       <h1 class="card-title">Work Experience</h1>
       <br />

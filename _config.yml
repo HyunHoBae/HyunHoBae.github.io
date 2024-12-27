@@ -102,6 +102,14 @@ author_certificate_details:
       certificate_date: 2024.06
       visibility: true
 
+# 개인 프로젝트 
+# Projects
+author_personal_project_details:
+  - project_thumbnail:
+    project_title: 통합 업무 지원 툴
+    project_description: LG B2B 웹 서비스 운영 시 업무 편의성 증진을 위해 개발 </br> 로그 확인을 위한 정보 입력 반자동화 </br> 신규 지라 모니터링 </br> 지라 크롤릴을 통한 업무 보고 자동 작성 등을 제공하는 GUI 프로그램
+    project_url:
+    visibility: true
 
 
 # social links
@@ -145,12 +153,13 @@ show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
 show_author_certificate_details: true
+show_author_personal_project_details: true
 
 # pagination of posts
 paginate: 4
 per_page: 4
 paginate_path: "/blog/page/:num/"
-
+future: ture
 
 #default Image
 default_img : /default/default1.jpeg
