@@ -19,11 +19,19 @@
               {% assign author = post.author %}
               {% if author %}
                {% assign author_data = site.data.authors[author] %}
+                {% if {{site.url}}{{site.baseurl}}/assets/img/authors/{{author_data.avatar}} %}
                <img
                 src="{{site.url}}{{site.baseurl}}/assets/img/authors/{{author_data.avatar}}"
                 width="50px"
                 height="50px"
              />
+              {% else %}
+              <img
+                      src="{{site.url}}{{site.baseurl}}/assets/img/{{site.default_img}}"
+                      width="50px"
+                      height="50px"
+              />
+                {% endif %}
               {% endif %}
             {% endif %}
 

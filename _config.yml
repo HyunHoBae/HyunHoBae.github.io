@@ -24,14 +24,14 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
+author_logo: 반명함.jpg
 author: HyunHo Bae
 author_bio: 안녕하세요 JAVA 개발자 배현호 입니다.
 author_email: "gusgh555@naver.com"
 author_location: Korea
 author_website_url: "hyunhobae@gitbhnb.io"
 typewrite-text: 포트폴리오 겸 메모용 블로그 입니다.
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+hero_cover_img: profileBackground.jpeg #sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
@@ -151,6 +151,9 @@ paginate: 4
 per_page: 4
 paginate_path: "/blog/page/:num/"
 
+
+#default Image
+default_img : /default/default1.jpeg
 # minify
 # compress_html:
 #   clippings: all

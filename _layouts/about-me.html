@@ -121,10 +121,17 @@ layout: default
       == true %}
       <div class="row" id="project-card">
         <div class="col-md-6">
+          {% if project.project_thumbnail %}
           <img
             src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
             class="project-img"
           />
+          {% else %}
+          <img
+                  src="{{site.url}}{{site.baseurl}}/assets/img/{{site.default_img}}"
+                  class="project-img"
+          />
+          {% endif %}
         </div>
         <div class="col-md-4 center">
           <h4 class="experience-title">{{ project.project_title }}</h4>
