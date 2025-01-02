@@ -18,6 +18,7 @@ hide: true
 
 ## 구현
 shell 스크립트만 메모
+<figure class="highlight">
 <pre>
     <code>
 #!/bin/bash        
@@ -68,3 +69,4 @@ tail -f -n 0 "${logFile}"|\
 
     </code>
 </pre>
+</figure>

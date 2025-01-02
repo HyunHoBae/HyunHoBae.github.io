@@ -16,13 +16,14 @@ top 명령어를 통해 자원 사용을 보았을 때는 램도 충분한데 CP
 
 차장님이 스레드 덤프를 확인 해보니 데드락인 것으로 추정하였고
 임시로 tomcat을 재기동 시켜 상황을 해결 했고 그 다음 원인 분석을 시작했다.
-
+<figure class="highlight">
 <pre>
 <code>
     jps -v # PID 획득
     jstack [PID] #덤프 생성
 </code>
 </pre>
+</figure>
 
 
 ## 원인 

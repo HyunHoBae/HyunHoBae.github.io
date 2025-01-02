@@ -16,7 +16,7 @@ hide: false
 
  1.HELP -> Edit Custom VM Options
  2. 내용 복사 
- 
+ <figure class="highlight">
  <pre>
     <code>
         -server
@@ -42,7 +42,9 @@ hide: false
         -Duser.name=사용자명
     </code>
 </pre>
+</figure>
 
+<figure class="highlight">
 <pre>
     <code>
         # 일반설정
@@ -74,7 +76,7 @@ hide: false
         -XX:+UseG1GC : 메모리 사용 패턴이 변동하는 IDE와 같은 애플리케이션에 더 적합한 G1(Garbage-First) 가비지 컬렉터를 사용
     </code>
 </pre>
-
+</figure>
 ### 2.인텔리제이 Profile 확인
 메모리 실시간 차트를 확인 하였더니 작업 시 Non-Heap Memory가 꾸준히 증가하고
 CPU 사용률이 심장 박동 수 처럼 마구 튐.. 

@@ -12,4 +12,4 @@ tags: ["시간복잡도"]
 대표적으로 Big-O 표기법이 있다.
 
 ## Big-O 표기법
-![img.png](../assets/images/post/algorithm/2024-11-04-timeComplex/img.png)
+![img.png](../../assets/images/post/algorithm/2024-11-04-timeComplex/img.png)
